@@ -1,0 +1,14 @@
+.VictoryContainer svg g:nth-child(2) g text tspan,
+.VictoryContainer svg g:nth-child(3) g text tspan { 
+    font-size: 5px !important;
+}
+
+/* render date text vertially */
+.VictoryContainer svg g:nth-child(2) g {
+    writing-mode: vertical-lr !important;
+}
+
+.App.croppedContent {
+    max-width: 80%;
+    margin: auto;
+}
